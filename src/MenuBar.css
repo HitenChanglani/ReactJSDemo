@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 150px;
+    background-color: darkslategrey;
+    left: -150px;
+}
+
+#sidebar.active {
+    left: 0px;
+}
+
+#sidebar ul li {
+    color: rgba(255, 250, 240, 0.6);
+    list-style: none;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(100, 100, 100, 1);
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    left: 170px;
+    top: 5px;
+}
+
+#sidebar .toggle-btn span {
+    display: block;
+    height: 5px;
+    width: 30px;
+    background: darkslategray;
+    margin: 3px 0px;
+}
