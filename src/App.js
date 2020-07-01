@@ -1,10 +1,11 @@
 import React from "react"
-import LoginPage from "./LoginPage"
+//import LoginPage from "./LoginPage"
+import ComponentList from "./ComponentList"
 
 function App() {
     return (
         <>
-            <LoginPage />
+            <ComponentList />
         </>
     )
 }

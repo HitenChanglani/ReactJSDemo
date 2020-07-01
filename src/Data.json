@@ -1,0 +1,66 @@
+{
+    "electronics": [
+        {
+            "laptops": [
+                {"id": 0, "name": "Dell Inspiron 5575", "price": 699},
+                {"id": 1, "name": "Dell Vostro 1500", "price": 549},
+                {"id": 2, "name": "Dell XPS 15", "price": 1249},
+                {"id": 3, "name": "HP Pavilion 360", "price": 799},
+                {"id": 4, "name": "HP Spectre 360", "price": 1149},
+                {"id": 5, "name": "HP Elitebook 840 G6", "price": 649}
+            ],
+            "mobiles": [
+                {"id": 0, "name": "OnePlus 8T Pro", "price": 849},
+                {"id": 1, "name": "Apple iPhone 11 Pro Max", "price": 1349},
+                {"id": 2, "name": "Samsung Galaxy S10+", "price": 1149},
+                {"id": 3, "name": "MI K20 Pro", "price": 399},
+                {"id": 4, "name": "Google Pixel 3", "price": 449},
+                {"id": 5, "name": "Realme 6 Pro", "price": 299}
+            ],
+            "earphones": [
+                {"id": 0, "name": "boAt Rockerz 255 Pro", "price": 24.99},
+                {"id": 1, "name": "OnePlus bullets", "price": 49.99},
+                {"id": 2, "name": "Realme bullets", "price": 44.99},
+                {"id": 3, "name": "JBL Pure Bass T1250", "price": 19.99},
+                {"id": 4, "name": "Bose Bassheads", "price": 119.99},
+                {"id": 5, "name": "Skullcandy Crysta Sound", "price": 79.99}
+            ],
+            "smartWatches": [
+                {"id": 0, "name": "MI SmartBand 4", "price": 64.99},
+                {"id": 1, "name": "Samsung Wristband", "price": 99.99},
+                {"id": 2, "name": "Fitbit Flex 2", "price": 179.99},
+                {"id": 3, "name": "Apple Watch 4", "price": 449.99},
+                {"id": 4, "name": "Moto 360", "price": 224.99},
+                {"id": 5, "name": "Noise Smartwatch", "price": 84.99}
+            ]
+        }
+    ],
+    "clothing": [
+        {
+            "jeans": [
+                {"id": 0, "name": "Flying Machine", "price": 114.99},
+                {"id": 1, "name": "Levi's", "price": 129.99},
+                {"id": 2, "name": "Metronaut", "price": 99.99},
+                {"id": 3, "name": "Wrangler", "price": 104.99},
+                {"id": 4, "name": "US Polo Assn.", "price": 114.99},
+                {"id": 5, "name": "Killer", "price": 84.99}
+            ],
+            "tshirts": [
+                {"id": 0, "name": "Allen Solly", "price": 59.99},
+                {"id": 1, "name": "Flying Machine", "price": 24.99},
+                {"id": 2, "name": "Park Avenue", "price": 34.99},
+                {"id": 3, "name": "Peter England", "price": 30.99},
+                {"id": 4, "name": "Ding & Jones", "price": 21.99},
+                {"id": 5, "name": "Moscow", "price": 15}
+            ],
+            "underwear": [
+                {"id": 0, "name": "Jockey", "price": 11.49},
+                {"id": 1, "name": "One 8", "price": 8.99},
+                {"id": 2, "name": "Amul Macho", "price": 6.49},
+                {"id": 3, "name": "Lux Cozi", "price": 5.49},
+                {"id": 4, "name": "Tom Burg", "price": 7.49},
+                {"id": 5, "name": "Classic Polo", "price": 7.99}
+            ]
+        }
+    ]
+}
