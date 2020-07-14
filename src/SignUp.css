@@ -1,0 +1,40 @@
+.Sign-up-form {
+    font-family: verdana;
+    width: 35%;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+    padding: 5px;
+    margin: 2% auto;
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+input[type=text] {
+    padding: 8px;
+    width: 90%;
+    display: inline-block;
+}
+
+input[type=radio] {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+input[type=email] {
+    padding: 8px;
+    width: 90%;
+}
+
+input[type=password] {
+    padding: 8px;
+    width: 90%;
+}
+
+button {
+    background-color: blueviolet;
+    font-family: verdana;
+    border-radius: 7px;
+    padding: 10px;
+    color: whitesmoke;
+    border: ivory solid;
+}

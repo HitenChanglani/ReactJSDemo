@@ -1,0 +1,36 @@
+.Login-form {
+    font-family: verdana;
+    width: 35%;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+    padding: 5px;
+    margin: 5% auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+input[type=email] {
+    padding: 8px;
+    width: 90%;
+}
+
+input[type=password] {
+    padding: 8px;
+    width: 90%;
+}
+
+button {
+    background-color: blueviolet;
+    font-family: verdana;
+    border-radius: 7px;
+    padding: 10px;
+    color: whitesmoke;
+    border: ivory solid;
+    margin: 0px auto;
+}
+
+p {
+    text-align: center;
+}

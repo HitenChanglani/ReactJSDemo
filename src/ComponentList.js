@@ -1,28 +1,33 @@
-import React, { Fragment } from "react"
+import React, { Fragment, useState, useEffect } from "react"
 import Component from "./Component"
 import axios from "axios"
 
 function ComponentList() {
 
-    //const cities = [{index: 0, name: "San Francisco", price: 10000}, {index: 1, name: "New York City", price: 8000}, {index: 2, name: "Charlotte", price: 5000}]
+    const [laptops, setLaptops] = useState([])
+    const [mobiles, setMobiles] = useState([])
+    const [earphones, setEarphones] = useState([])
+    const [smartWatches, setSmartWatches] = useState([])
+    const [jeans, setJeans] = useState([])
+    const [tshirts, setTshirts] = useState([])
+    const [underwear, setUnderwear] = useState([])
     
-    let laptops, mobiles, earphones, smartWatches, jeans, tshirts, underwear
-    
-    axios.get('http://localhost:3000/electronics').then(res => {
-        laptops = res.data[0].laptops.map(i => <Component key={i.id} name={i.name} price={i.price} />)
-        mobiles = res.data[0].mobiles.map(i => <Component key={i.id} name={i.name} price={i.price} />)
-        earphones = res.data[0].earphones.map(i => <Component key={i.id} name={i.name} price={i.price} />)
-        smartWatches = res.data[0].smartWatches.map(i => <Component key={i.id} name={i.name} price={i.price} />)
-        console.log(laptops)
-    })
+    useEffect(
+        () => {
+            axios.get('http://localhost:3000/electronics').then(res => {
+                setLaptops(res.data[0].laptops.map(i => <Component key={i.id} name={i.name} price={i.price} />))
+                setMobiles(res.data[0].mobiles.map(i => <Component key={i.id} name={i.name} price={i.price} />))
+                setEarphones(res.data[0].earphones.map(i => <Component key={i.id} name={i.name} price={i.price} />))
+                setSmartWatches(res.data[0].smartWatches.map(i => <Component key={i.id} name={i.name} price={i.price} />))
+            })
 
-    axios.get('http://localhost:3000/clothing').then(res => {
-        jeans = res.data[0].jeans.map(i => <Component key={i.id} name={i.name} price={i.price} />)
-        tshirts = res.data[0].tshirts.map(i => <Component key={i.id} name={i.name} price={i.price} />)
-        underwear = res.data[0].underwear.map(i => <Component key={i.id} name={i.name} price={i.price} />)
-    })
-
-    //const citiList = cities.map(i => <Component key={i.index} name={i.name} price={i.price} />)
+            axios.get('http://localhost:3000/clothing').then(res => {
+                setJeans(res.data[0].jeans.map(i => <Component key={i.id} name={i.name} price={i.price} />))
+                setTshirts(res.data[0].tshirts.map(i => <Component key={i.id} name={i.name} price={i.price} />))
+                setUnderwear(res.data[0].underwear.map(i => <Component key={i.id} name={i.name} price={i.price} />))
+            })
+        }, []
+    )
 
     return (
         <Fragment>

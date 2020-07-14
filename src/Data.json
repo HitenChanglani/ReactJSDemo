@@ -1,4 +1,38 @@
 {
+    "user": [
+        {
+          "id": "changlanihiten@gmail.com",
+          "Username": "changlanihiten@gmail.com",
+          "Password": "hiten12345",
+          "Name": {
+            "firstName": "Hiten",
+            "lastName": "Changlani"
+          },
+          "Gender": "male",
+          "Address": {
+            "fLine": "401, Ruchika Palace",
+            "sLine": "Dassera Maidan, Section-23",
+            "city": "Ulhasnagar",
+            "zipCode": "421003"
+          }
+        },
+        {
+          "id": "changlanimohit@gmail.com",
+          "Username": "changlanimohit@gmail.com",
+          "Password": "mohit12345",
+          "Name": {
+            "firstName": "Mohit",
+            "lastName": "Changlani"
+          },
+          "Gender": "male",
+          "Address": {
+            "fLine": "401, Ruchika Palace",
+            "sLine": "Dassera Maidan, Section-23",
+            "city": "Ulhasnagar",
+            "zipCode": "421003"
+          }
+        }
+    ],
     "electronics": [
         {
             "laptops": [
